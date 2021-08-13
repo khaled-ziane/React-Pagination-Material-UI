@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.test {
+  padding: 50px;
+  border: 1px solid #000;
+}
+
+.test:hover {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+.test2 {
+  background: orange;
+  height: 100px;
+  width: 100px;
+}
+.btn {
+  color: blue;
+  font-size: 50px;
+  background: yellow;
+}
+.inputTest {
+  border: 5px solid green;
+  padding: 30px;
+}
+.button {
+  background: red;
+  color: #fff;
+}
+
+.button:hover {
+  background: green;
+}
+.table-container {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.table {
+  width: 800px;
+  border: "1px solid #dddddd";
+  margin: 0 auto;
+}
+.pagination {
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
